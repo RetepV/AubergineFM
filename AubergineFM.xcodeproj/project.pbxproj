@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		056CC2CD2D09C92B00B55A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056CC2B22D09C92700B55A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056CC2B92D09C92700B55A4E;
+			remoteInfo = AubergineFM;
+		};
+		056CC2D72D09C92B00B55A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056CC2B22D09C92700B55A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056CC2B92D09C92700B55A4E;
+			remoteInfo = AubergineFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056CC2BA2D09C92700B55A4E /* AubergineFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AubergineFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056CC2CC2D09C92B00B55A4E /* AubergineFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AubergineFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056CC2D62D09C92B00B55A4E /* AubergineFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AubergineFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		05C976A32D0F110B000289AD /* Exceptions for "AubergineFM" folder in "AubergineFM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 056CC2B92D09C92700B55A4E /* AubergineFM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		056CC2BC2D09C92700B55A4E /* AubergineFM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				05C976A32D0F110B000289AD /* Exceptions for "AubergineFM" folder in "AubergineFM" target */,
+			);
+			path = AubergineFM;
+			sourceTree = "<group>";
+		};
+		056CC2CF2D09C92B00B55A4E /* AubergineFMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AubergineFMTests;
+			sourceTree = "<group>";
+		};
+		056CC2D92D09C92B00B55A4E /* AubergineFMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AubergineFMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056CC2B72D09C92700B55A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2C92D09C92A00B55A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2D32D09C92B00B55A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056CC2B12D09C92700B55A4E = {
+			isa = PBXGroup;
+			children = (
+				056CC2BC2D09C92700B55A4E /* AubergineFM */,
+				056CC2CF2D09C92B00B55A4E /* AubergineFMTests */,
+				056CC2D92D09C92B00B55A4E /* AubergineFMUITests */,
+				056CC2BB2D09C92700B55A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056CC2BB2D09C92700B55A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056CC2BA2D09C92700B55A4E /* AubergineFM.app */,
+				056CC2CC2D09C92B00B55A4E /* AubergineFMTests.xctest */,
+				056CC2D62D09C92B00B55A4E /* AubergineFMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056CC2B92D09C92700B55A4E /* AubergineFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056CC2E02D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFM" */;
+			buildPhases = (
+				056CC2B62D09C92700B55A4E /* Sources */,
+				056CC2B72D09C92700B55A4E /* Frameworks */,
+				056CC2B82D09C92700B55A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				056CC2BC2D09C92700B55A4E /* AubergineFM */,
+			);
+			name = AubergineFM;
+			packageProductDependencies = (
+			);
+			productName = AubergineFM;
+			productReference = 056CC2BA2D09C92700B55A4E /* AubergineFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056CC2CB2D09C92A00B55A4E /* AubergineFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056CC2E32D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFMTests" */;
+			buildPhases = (
+				056CC2C82D09C92A00B55A4E /* Sources */,
+				056CC2C92D09C92A00B55A4E /* Frameworks */,
+				056CC2CA2D09C92A00B55A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056CC2CE2D09C92B00B55A4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				056CC2CF2D09C92B00B55A4E /* AubergineFMTests */,
+			);
+			name = AubergineFMTests;
+			packageProductDependencies = (
+			);
+			productName = AubergineFMTests;
+			productReference = 056CC2CC2D09C92B00B55A4E /* AubergineFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056CC2D52D09C92B00B55A4E /* AubergineFMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056CC2E62D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFMUITests" */;
+			buildPhases = (
+				056CC2D22D09C92B00B55A4E /* Sources */,
+				056CC2D32D09C92B00B55A4E /* Frameworks */,
+				056CC2D42D09C92B00B55A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056CC2D82D09C92B00B55A4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				056CC2D92D09C92B00B55A4E /* AubergineFMUITests */,
+			);
+			name = AubergineFMUITests;
+			packageProductDependencies = (
+			);
+			productName = AubergineFMUITests;
+			productReference = 056CC2D62D09C92B00B55A4E /* AubergineFMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056CC2B22D09C92700B55A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					056CC2B92D09C92700B55A4E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					056CC2CB2D09C92A00B55A4E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 056CC2B92D09C92700B55A4E;
+					};
+					056CC2D52D09C92B00B55A4E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 056CC2B92D09C92700B55A4E;
+					};
+				};
+			};
+			buildConfigurationList = 056CC2B52D09C92700B55A4E /* Build configuration list for PBXProject "AubergineFM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056CC2B12D09C92700B55A4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 056CC2BB2D09C92700B55A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056CC2B92D09C92700B55A4E /* AubergineFM */,
+				056CC2CB2D09C92A00B55A4E /* AubergineFMTests */,
+				056CC2D52D09C92B00B55A4E /* AubergineFMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056CC2B82D09C92700B55A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2CA2D09C92A00B55A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2D42D09C92B00B55A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056CC2B62D09C92700B55A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2C82D09C92A00B55A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056CC2D22D09C92B00B55A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056CC2CE2D09C92B00B55A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056CC2B92D09C92700B55A4E /* AubergineFM */;
+			targetProxy = 056CC2CD2D09C92B00B55A4E /* PBXContainerItemProxy */;
+		};
+		056CC2D82D09C92B00B55A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056CC2B92D09C92700B55A4E /* AubergineFM */;
+			targetProxy = 056CC2D72D09C92B00B55A4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056CC2DE2D09C92B00B55A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		056CC2DF2D09C92B00B55A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056CC2E12D09C92B00B55A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AubergineFM/Preview Content\"";
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AubergineFM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056CC2E22D09C92B00B55A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AubergineFM/Preview Content\"";
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AubergineFM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		056CC2E42D09C92B00B55A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AubergineFM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AubergineFM";
+			};
+			name = Debug;
+		};
+		056CC2E52D09C92B00B55A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AubergineFM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AubergineFM";
+			};
+			name = Release;
+		};
+		056CC2E72D09C92B00B55A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AubergineFM;
+			};
+			name = Debug;
+		};
+		056CC2E82D09C92B00B55A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.AubergineFMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AubergineFM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056CC2B52D09C92700B55A4E /* Build configuration list for PBXProject "AubergineFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056CC2DE2D09C92B00B55A4E /* Debug */,
+				056CC2DF2D09C92B00B55A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056CC2E02D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056CC2E12D09C92B00B55A4E /* Debug */,
+				056CC2E22D09C92B00B55A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056CC2E32D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056CC2E42D09C92B00B55A4E /* Debug */,
+				056CC2E52D09C92B00B55A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056CC2E62D09C92B00B55A4E /* Build configuration list for PBXNativeTarget "AubergineFMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056CC2E72D09C92B00B55A4E /* Debug */,
+				056CC2E82D09C92B00B55A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056CC2B22D09C92700B55A4E /* Project object */;
+}
